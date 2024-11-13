@@ -1,3 +1,5 @@
 /node_modules
 /.temp
 /docs/.vuepress/dist
+/.idea
+/.vscode
