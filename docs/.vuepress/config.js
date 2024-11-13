@@ -189,8 +189,8 @@ module.exports = {
           {
             text: "基本概念",
             items: [
-              {text: "数据类型", link: createPath("TypeScript","01")},
-              {text: "操作符",  link: createPath("TypeScript","02")},
+              {text: "日常类型", link: createPath("TypeScript","01")},
+              {text: "特殊类型",  link: createPath("TypeScript","02")},
               {text: "语句",  link: createPath("TypeScript","03")},
             ],
           },
