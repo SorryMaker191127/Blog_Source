@@ -1,4 +1,5 @@
 module.exports = {
+  base:'/Blog/',
   title: "SorryMaker",
   description: "Just playing around",
   themeConfig: {
