@@ -93,7 +93,7 @@ module.exports = {
           {
             text: "事件",
             items: [
-              {text: "数据类型", link: "/JavaScript/chapter01/#数据类型"},
+              {text: "数据类型", link: "/JavaScript/chapter01.md/#数据类型"},
               {text: "Boolean", link: "/JavaScript/#boolean-类型"},
             ],
           },
@@ -184,6 +184,13 @@ module.exports = {
         ],
       },
       {
+        text:"JavaScriptCore",
+        items:[
+          {text:"数据类型",link:createPath("JavaScriptCore","01")},
+          {text:"继承",link:createPath("JavaScriptCore","02")}
+        ]
+      },
+      {
         text: "TypeScript",
         items: [
           {
@@ -202,13 +209,13 @@ module.exports = {
           {
             text: "Vue2",
             items: [
-              {text: "指令", link: "/Vue2/chapter01/"},
+              {text: "指令", link: "/Vue2/chapter01.md/"},
             ],
           },
           {
             text: "Vue3",
             items: [
-              {text: "setup", link: "/Vue3/chapter01/"},
+              {text: "setup", link: "/Vue3/chapter01.md/"},
             ],
           }
         ]
@@ -217,6 +224,7 @@ module.exports = {
     ],
     sidebar: {
       "/JavaScript/": [...createChapter(3)],
+      "/JavaScriptCore/": [...createChapter(3)],
       "/TypeScript/": [...createChapter(3)],
       "/Vue2/": [...createChapter(3)],
       "/Vue3/": [...createChapter(3)],
