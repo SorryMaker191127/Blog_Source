@@ -294,12 +294,14 @@ fs.rmdir('./recuTest', {recursive: true}, (err) => {
 :::
 
 ## 查看文件状态
+
 `fs.stat(file,callback)`
+
 ```js
 //导入文件
 const fs = require('fs');
 //文件状态
-fs.stat('./text.txt',(err,data)=>{
+fs.stat('./text.txt', (err, data) => {
     //err 失败：错误对象；成功：null
     if (err) {
         console.log("查看失败：", err)
